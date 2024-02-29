@@ -1,0 +1,15 @@
+.header-background {
+  background-color: #f1f5f9;
+  padding: 20px 0px;
+}
+
+.header-website-logo-container {
+  width: 90%;
+  margin: auto;
+}
+
+.website-logo {
+  width: 160px;
+  height: 60px;
+  cursor: pointer;
+}

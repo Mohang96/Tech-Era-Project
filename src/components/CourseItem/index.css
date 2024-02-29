@@ -1,0 +1,23 @@
+.course-item-link {
+  text-decoration: none;
+}
+
+.course-item {
+  display: flex;
+  align-items: center;
+  width: 200px;
+  height: 140px;
+  cursor: pointer;
+  margin: 0px 25px 25px 0px;
+}
+
+.course-item-logo {
+  width: 60px;
+  height: 60px;
+  margin-right: 15px;
+}
+
+.course-item-name {
+  color: #1e293b;
+  font-size: 18px;
+}

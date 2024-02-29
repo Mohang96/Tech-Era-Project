@@ -1,0 +1,54 @@
+.home-background {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.courses-in-progress-and-failure-view-container {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.failure-view-image {
+  height: 200px;
+  width: 320px;
+}
+
+.failure-view-msg {
+  color: #475569;
+}
+
+.failure-view-feedback {
+  color: #64748b;
+}
+
+.retry-btn {
+  background-color: #4656a1;
+  border-radius: 4px;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  color: #ffffff;
+  font-size: 14px;
+}
+
+.courses-success-view-container {
+  flex-grow: 1;
+  width: 90%;
+  margin: auto;
+  padding: 20px 0px;
+}
+
+.courses-success-view-heading {
+  color: #1e293b;
+}
+
+.course-items-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
